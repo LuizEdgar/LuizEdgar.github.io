@@ -13,12 +13,14 @@ body {
 }
 
 .container-profile {
-  min-height: 360px;
+  min-height: 450px;
   position: relative;
   display: inline-block;
   width: 100%;
   color: #FFF;
-  background: #e74c3c;
+  background: #e74c3c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #e73c5c, #e74c3c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #e73c5c, #e74c3c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .container-main {
@@ -40,7 +42,7 @@ body {
   .container-main {
     position: fixed;
     top: 0;
-    padding: 30px 50px;
+    padding: 20px 20px 20px 50px;
     right: 0;
     float: right;
     overflow-x: hidden;
@@ -54,7 +56,6 @@ body {
   margin: auto;
   width: 38.1966011%;
   display: block;
-  max-width: 300px;
   border-radius: 50%;
 }
 
@@ -64,7 +65,7 @@ body {
 }
 
 span.highlight{
-  color: #e74c3c;
+  color: #E7434E;
 }
 
 span.dash{
@@ -72,32 +73,38 @@ span.dash{
   vertical-align: middle;
   height: 2px;
   width: 30px;
-  background-color: #e74c3c;
+  background-color: #E7434E;
   margin-bottom: 2px;
   margin-right: 7px;
 }
 
 .container-main .section h3{
+  font-weight: 500;
   text-transform: uppercase;  
-  color: #e74c3c;
+  color: #E7434E;
+  margin-bottom: 20px;
+}
+
+.container-main .section {
+  padding-bottom: 20px;
 }
 
 .container-main .section .item{
   padding-bottom: 15px;
 }
 
-.container-main .section .item .item-title{
+.container-main .section .item .item-title, a{
   font-size: 1.1rem;
   font-weight: 500;
+  color: #677677;
 }
 
 .container-main .section .item .item-title a{
-  color: #7f8c8d;
   text-decoration: none;
 }
 
 .container-main .section .item .item-title a:hover{
-  color: #e74c3c;
+  color: #E7434E;
 }
 
 .container-main .section .item .item-subtitle{
@@ -112,22 +119,44 @@ span.dash{
 
 .item-education .item-edication-tag{
   float: left;
+  display: inline-block;
+  margin-bottom: : 4px;
   width: 50px;
+  border-radius: 3px;
   text-align: center;
   color: #FFF;
-  background-color: #e74c3c;
-  margin-bottom: 4px;
+  background-color: #E7434E;
 }
 
 .container-profile #social{
-  width: 200px;
+  width: 250px;
   position: absolute;  
   left: 50%;
-  margin: 10px 0px 10px -100px;
+  margin: 0px 0px 10px -125px;
   bottom: 0;
 }
 
 #social a{
   margin: 0px 2px;
   color: #FFF;
+}
+
+span.skill-highlight{
+  display: inline-block;
+  margin-top: 4px;
+  padding: 4px 10px;
+  border-radius: 3px;
+  text-align: center;
+  color: #FFF;
+  background-color: #E7434E;
+}
+
+span.skill{
+  display: inline-block;
+  margin-top: 4px;
+  padding: 4px 10px;
+  border-radius: 3px;
+  text-align: center;
+  color: #677677;
+  background-color: #ecf0f1;
 }
