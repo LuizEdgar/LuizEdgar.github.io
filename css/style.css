@@ -22,7 +22,7 @@ body {
 }
 
 .container-main {
-  color: #7f8c8d;
+  color: #676f70;
   display: inline-block;
 }
 
@@ -96,7 +96,7 @@ body {
 }
 
 span.highlight{
-  color: #E74943;
+  color: #d6564a;
 }
 
 span.dash{
@@ -104,14 +104,14 @@ span.dash{
   vertical-align: middle;
   height: 2px;
   width: 30px;
-  background-color: #E74943;
+  background-color: #d6564a;
   margin-bottom: 2px;
   margin-right: 10px;
 }
 
 .container-main .section h3{
   text-transform: uppercase;  
-  color: #E74943;
+  color: #d6564a;
   font-weight: 400;
   margin-bottom: 20px;
 }
@@ -127,7 +127,7 @@ span.dash{
 .container-main .section .item .item-title, a{
   font-size: 1.1rem;
   font-weight: 500;
-  color: #677677;
+  color: #3c4444;
 }
 
 .container-main .section .item .item-title a{
@@ -135,7 +135,7 @@ span.dash{
 }
 
 .container-main .section .item .item-title a:hover{
-  color: #E74943;
+  color: #d6564a;
 }
 
 .container-main .section .item .item-subtitle{
@@ -151,12 +151,11 @@ span.dash{
   float: left;
   display: inline-block;
   margin-right: 10px;
-  margin-bottom: : 4px;
   width: 50px;
   border-radius: 3px;
   text-align: center;
   color: #FFF;
-  background-color: #E74943;
+  background-color: #d6564a;
 }
 
 .container-profile #social{
@@ -180,7 +179,7 @@ span.skill-highlight{
   border-radius: 3px;
   text-align: center;
   color: #FFF;
-  background-color: #E74943;
+  background-color: #d6564a;
 }
 
 span.skill{
@@ -189,6 +188,6 @@ span.skill{
   padding: 4px 10px;
   border-radius: 3px;
   text-align: center;
-  color: #677677;
+  color: #676f70;
   background-color: #ecf0f1;
 }
