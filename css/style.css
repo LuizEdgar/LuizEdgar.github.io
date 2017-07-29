@@ -22,7 +22,7 @@ body {
 }
 
 .container-main {
-  color: #676f70;
+  color: #424242;
   display: inline-block;
 }
 
@@ -127,7 +127,7 @@ span.dash{
 .container-main .section .item .item-title, a{
   font-size: 1.1rem;
   font-weight: 500;
-  color: #3c4444;
+  color: #34495e;
 }
 
 .container-main .section .item .item-title a{
@@ -139,7 +139,7 @@ span.dash{
 }
 
 .container-main .section .item .item-subtitle{
-  color: #95a5a6;
+  color: #9E9E9E;
   text-transform: uppercase;
 }
 
@@ -188,6 +188,6 @@ span.skill{
   padding: 4px 10px;
   border-radius: 3px;
   text-align: center;
-  color: #676f70;
-  background-color: #ecf0f1;
+  color: #424242;
+  background-color: #ECEFF1;
 }
